@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }} - My E-Commerce Site</title>
+</head>
+<body>
+    <a href="{{ url_for('index') }}">Back to Home</a>
+    <hr>
+    <h1>{{ product.name }}</h1>
+    <p><strong>Category:</strong> {{ product.category }}</p>
+    <p><strong>Price:</strong> ${{ product.price }}</p>
+</body>
+</html>
